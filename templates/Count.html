@@ -1,0 +1,9 @@
+<h1>Your text:{{fulltext}}</h1>
+
+<h1>Number of words in your text:{{wordcount}}</h1>
+<h2>List of words</h2>
+{% for word , wordcount in worddic %}
+
+{{word}}:{{wordcount}} <br/>
+
+{% endfor %}
